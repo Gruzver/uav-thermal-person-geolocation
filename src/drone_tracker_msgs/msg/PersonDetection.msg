@@ -1,0 +1,9 @@
+int32 track_id
+float32 confidence
+float32 bbox_x1
+float32 bbox_y1
+float32 bbox_x2
+float32 bbox_y2
+float32 centroid_x
+float32 centroid_y
+builtin_interfaces/Time timestamp

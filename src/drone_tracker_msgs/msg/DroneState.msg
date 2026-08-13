@@ -1,0 +1,10 @@
+builtin_interfaces/Time timestamp
+float64 latitude
+float64 longitude
+float32 altitude_rel
+float32 altitude_abs
+float32 yaw
+float32 pitch
+float32 roll
+float32 focal_len
+float32 dzoom_ratio

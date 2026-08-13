@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>drone_bringup</name>
+  <version>1.0.0</version>
+  <description>Launch files del pipeline completo en modo offline, live y NRT.</description>
+  <maintainer email="gruzver.phocco@pucp.edu.pe">Gruzver Romario Phocco Caceres</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>video_publisher_node</exec_depend>
+  <exec_depend>camera_publisher_node</exec_depend>
+  <exec_depend>usb_cam</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>mqtt_telemetry_node</exec_depend>
+  <exec_depend>yolo_detection_node</exec_depend>
+  <exec_depend>georeferencing_node</exec_depend>
+  <exec_depend>map_server_node</exec_depend>
+  <exec_depend>drone_tracker_msgs</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

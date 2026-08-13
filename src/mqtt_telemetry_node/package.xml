@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>mqtt_telemetry_node</name>
+  <version>1.0.0</version>
+  <description>Puente de telemetria en vivo desde la DJI Cloud API (MQTT) al mensaje DroneState.</description>
+  <maintainer email="gruzver.phocco@pucp.edu.pe">Gruzver Romario Phocco Caceres</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>drone_tracker_msgs</depend>
+  <exec_depend>python3-paho-mqtt</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

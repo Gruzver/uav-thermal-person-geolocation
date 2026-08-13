@@ -1,0 +1,2 @@
+builtin_interfaces/Time timestamp
+drone_tracker_msgs/PersonLocation[] persons

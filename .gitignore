@@ -1,0 +1,31 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Trained weights: distributed separately (see README)
+*.pt
+*.onnx
+*.engine
+
+# Flight data: not part of this repository
+*.MP4
+*.mp4
+*.SRT
+*.srt
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local credentials
+.env
+config/*.local.yaml
